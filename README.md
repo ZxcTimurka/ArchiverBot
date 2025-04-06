@@ -21,3 +21,17 @@ pip install pyTelegramBotAPI
 ```
 python archive_bot_v1.py
 ```
+
+## Setup
+1. Using an Environment Variable (recommended):
+  - Using the Command Prompt
+    ```shell
+    set TELEGRAM_BOT_TOKEN="YOUR_TOKEN"
+    ```
+  - Using a .env file: Create a file named .env in your project's root directory and add the line:
+    ```
+    TELEGRAM_BOT_TOKEN="YOUR_TOKEN"
+    ```
+2. Default Value
+- replace TELEGRAM_BOT_TOKEN_HERE with your token
+  
